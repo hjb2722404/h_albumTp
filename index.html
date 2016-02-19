@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <title>H5场景应用</title>
+    <link rel="stylesheet" href="css/animate.css" type="text/css"/>
+    <link rel="stylesheet" href="css/animations.css" type="text/css"/>
+    <link rel="stylesheet" href="css/loading.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style.min.css" type="text/css"/>
+
+
+    <style>
+        .page1{background-image: url("imgs/001.jpg"); background-repeat: no-repeat; background-size: cover;}
+        .page2{background-image: url("imgs/002.jpg"); background-repeat: no-repeat; background-size: cover;}
+        .page3{background-image: url("imgs/003.jpg"); background-repeat: no-repeat; background-size: cover;}
+        .page4{background-image: url("imgs/004.jpg"); background-repeat: no-repeat; background-size: cover;}
+        .page5{background-image: url("imgs/005.jpg"); background-repeat: no-repeat; background-size: cover;}
+        .page6{background-image: url("imgs/006.jpg"); background-repeat: no-repeat; background-size: cover;}
+        .page7{background-image: url("imgs/007.jpg"); background-repeat: no-repeat; background-size: cover;}
+        .page8{background-image: url("imgs/008.jpg"); background-repeat: no-repeat; background-size: cover;}
+        .page9{background-image: url("imgs/009.jpg"); background-repeat: no-repeat; background-size: cover;}
+        .textbox {display:none;}
+        .textbox1{width:60%; height: 100px; position: absolute; top:50px; left: 50px; margin-left: 0; margin-top: 0; color:red;-webkit-writing-mode:horizontal-tb;writing-mode:lr-tb;writing-mode:horizontal-tb;}
+        .textbox2{width:50%; height: 300px; position: absolute; top:50px; right: 50px; margin-left: 0; margin-top: 0; color:yellow; -webkit-writing-mode:vertical-rl;writing-mode:tb-rl;writing-mode:vertical-rl;}
+
+
+    </style>
+
+</head>
+<body>
+<div class='loader loader--spinningDisc'></div>
+
+<audio src="media/1.mp3" autoplay="autoplay"  id="audio"  hidden="hidden" loop="loop"></audio>
+<div id="audioPlay"></div>
+    <div id="pages">
+
+        <div class="page page1">
+            <div class="textbox1 pt-page-rotateCubeTopIn">
+                <h5>岁月如花般绽放</h5>
+                <h5>你的微笑</h5>
+                <h5>融化在咖啡里</h5>
+            </div>
+        </div>
+        <div class="page page2">
+            <div class=" textbox textbox2">
+                <h5>不知你是否记得</h5>
+                <h5>下雨那天</h5>
+                <h5>你我初遇</h5>
+                <h5>你恰好穿着白色短衫</h5>
+            </div>
+        </div>
+        <div class="page page3">
+            <div class="textbox3"></div>
+        </div>
+        <div class="page page4">
+            <div class="textbox4"></div>
+        </div>
+        <div class="page page5">
+            <div class="textbox5"></div>
+        </div>
+        <div class="page page6">
+            <div class="textbox6"></div>
+        </div>
+        <div class="page page7">
+            <div class="textbox7"></div>
+        </div>
+        <div class="page page8">
+            <div class="textbox8"></div>
+        </div>
+        <div class="page page9">
+            <div class="textbox9"></div>
+        </div>
+
+    </div>
+
+    <div class="upicon animated infinite bounce "><img src="images/upicon.png" alt=""/></div>
+
+<script src="http://apps.bdimg.com/libs/zepto/1.1.4/zepto.min.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/myfn.min.js"></script>
+</body>
+</html>
